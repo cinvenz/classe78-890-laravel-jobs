@@ -1,0 +1,17 @@
+// importare fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+// importa lo stile di bootstrap
+// @import "~bootstrap";
+
+// importa fontawesome
+$fa-font-path: "./fonts/font-awesome" !default;
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+// stile
+body {
+    font-family: 'Roboto', sans-serif;
+}
